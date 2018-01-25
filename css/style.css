@@ -10,6 +10,7 @@ body {
 	font: normal 1em/1.5 sans-serif;
 	color: #222;
 	background-color: #edeff0;
+    font-family: 'Montserrat', sans-serif;
 }
 img {
 	border: solid 1px;
@@ -22,12 +23,15 @@ img {
 .main-header {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #384047; 
+	/* background-color: #384047; */
 }
 .main-logo {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 1.5em;
+	display: inline-block;
+	/* position: fixed; */
+	/* float: left; */
 }
 .main-logo a, 
 .main-nav a {
@@ -37,12 +41,14 @@ img {
 	color: white;
 	text-decoration: none;
 	padding: 10px 20px;
+	font-weight: 800;
 }
 .main-logo a { 
 	background-color: #5fcf80; 
 }
-.main-nav a { 
-	background-color: #3f8abf; 
+.main-nav a {
+	/* background-color: #3f8abf; */
+	color: #3A565A;
 }
 .main-footer {
 	text-align: center;
@@ -72,9 +78,11 @@ img {
 		margin-top: 6px;
 		margin-left: 10px;
 		display: inline-block;
+		/* color: #3A565A; */
 	}
 	.main-banner {
-		background: #dfe2e4;
+		background: #FFE8D6;
+		height:610px;
 		text-align: center;
 		padding: 50px 15px;
 		margin-bottom: 20px;
