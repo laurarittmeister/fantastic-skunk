@@ -6,7 +6,6 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 body {
 	font: normal 1em/1.5 sans-serif;
 	color: #222;
@@ -21,22 +20,6 @@ body {
 p {
     font-family: font-family: 'Open Sans', sans-serif;
     }
-
-.section-title {
-    color: #3A565A;
-    font-weight: 800;
-    display: block;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    font-family:  'Montserrat', sans-serif;
-}
-
-
-.main-banner {
-		background: #FFE8D6;
-		text-align: left;
-		margin-bottom: 20px;
-	}
 
 /* Header           */
 
@@ -85,19 +68,19 @@ p {
 .main-logo a { 
 	background-color: #5fcf80; 
 }
-
 .main-nav a {
 	color: #3A565A;
 }
 
 
-/* Footer           */
+
 .main-footer {
 	margin-top: 30px;
 	padding-top: 5px;
 	padding-bottom: 5px;
  	background-color: #3C7681;
 }
+
 
 .main-footer h2 {
     color: white;
@@ -158,7 +141,15 @@ p {
     float: right;
 }
 
-/* Category section         */
+.section-title {
+    color: #3A565A;
+    font-weight: 800;
+    display: block;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family:  'Montserrat', sans-serif;
+}
+
 .categories{
    width: 100%;
    margin:  0 auto;
@@ -173,60 +164,6 @@ p {
     box-shadow: 0 0 9px 2px rgba(0,0,0,0.2);
 }
 
-
-
-/**/
-
- .title-decoration {
-        height: 6px;
-        width:60px;
-        background-color: #3A565A;
-        margin-bottom: -8px;     
-    }
-    
-    .title-decoration2 {
-        height: 6px;
-        width:60px;
-        background-color: #33CAD1;
-        margin: 15px 0 0 15px;
-        position: absolute;
-        padding: -10px;
-    }
-
-.blue-square {
-        background-color: #33cad1;
-        width: 100%;
-        height: 100%;
-}
-
-
- .button {
-        display: inline-block;
-        padding: 4% 12% 4% 12%;
-        margin: 0px 0px -28px 60px;
-        background-color: #38A3AD;
-        text-align:  center;
-        text-transform:  uppercase;
-        color:  white;
-        font-weight: 800;
-        font-size: 0.8em;
-        letter-spacing: 1px;
-    }
-
-
-    .welcome {
-        background-color: white;
-        padding: 10% 0 10% 0;
-        font-family:  'Open Sans', sans-serif;
-    }
-
-
-/* MEDIA QUERY
-================================ 
-================================ ================================ ================================ 
-
-*/
-
 @media (min-width: 768px) { 
 
 	/* Main Layout Styles
@@ -239,7 +176,6 @@ p {
 		width: 100%;
 		overflow:;
 	}
-    
 	.main-nav {
 		text-align: left;
 		max-width:1140px;
@@ -252,7 +188,6 @@ p {
 		margin-left: 10px;
 		display: inline-block;
 	}
-    
 	.main-banner {
 		background: #FFE8D6;
 		height:610px;
@@ -272,6 +207,7 @@ p {
     .product{
     background-color: #ffffff;
     box-shadow: 0 1px 3px 1px rgba(0,0,0,0.2);
+    /* height: 400px; */
     min-height: 400px;
     padding: 24px 0 15px 15px;
     display: inline-block;
@@ -286,7 +222,22 @@ p {
         padding: 6px 20px 10px 20px;
     }
     
-   
+    .title-decoration {
+        height: 6px;
+        width:60px;
+        background-color: #3A565A;
+        margin-bottom: -8px;
+        
+    }
+    
+    .title-decoration2 {
+        height: 6px;
+        width:60px;
+        background-color: #33CAD1;
+        margin: 15px 0 0 15px;
+        position: absolute;
+        padding: -10px;
+    }
     
     .price {
         color: #3C7681;
@@ -295,7 +246,19 @@ p {
         margin: -12px 0 15px 0;
     }
     
-   
+    .button{
+        
+        display: inline-block;
+        padding: 4% 12% 4% 12%;
+        margin: 0px 0px -28px 60px;
+        background-color: #38A3AD;
+        text-align:  center;
+        text-transform:  uppercase;
+        color:  white;
+        font-weight: 800;
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
     
     .product-description {
         color: #000000;
@@ -316,15 +279,20 @@ p {
         margin-bottom: 80px;
     }
     
-
+    .welcome {
+        background-color: white;
+        padding-top: 105px;
+        height: 85%;
+        font-family:  'Open Sans', sans-serif;
+    }
     
     .blue-square{
         background-color: #33cad1;
-        width: 100%;
-        height: 100%;
         display: block;
         max-width: 500px;
         max-height: 245px;
+        width: 100%;
+        height: 100%;
         margin: 30px 0 0 0;
         z-inedx: -1;
     }
